@@ -1,0 +1,18 @@
+
+ClusterName: marla-test
+FunctionsDir: example
+FunctionsFile: example_functions.py
+Region: us-east-1
+BucketIn: marla-input-test-ronald
+BucketOut: marla-output-test-ronald
+RoleARN: arn:aws:iam::623641188571:role/MARLA_INVOCATION_ROLE
+MapperNodes: 128
+#Block size is expressed in KB
+MinBlockSize: 1024
+MaxBlockSize: 0
+#Memory of each lambda function expressed in MB
+MapperMemory: 2048
+ReducerMemory: 2048
+#TimeOut expressed in seconds
+TimeOut: 180
+ReducersNumber: 64
