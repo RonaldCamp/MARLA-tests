@@ -13,3 +13,6 @@ do
   sleep $tempo_espera
 done
 
+##ronald@ronald-VirtualBox:~/Marla/marla$ sudo bash marla_create.sh example/config.in
+##ronald@ronald-VirtualBox:~/Marla/marla$ sudo bash marla_remove.sh us-east-1 marla-test
+##sudo bash teste.sh
